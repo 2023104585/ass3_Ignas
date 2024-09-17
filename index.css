@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {  
+   background-image: url(bg.jpg);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.login-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(90deg, #ff66c4, #8c52ff);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    transition: 0.5s;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(90deg, #ff66c4, #8c52ff);
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 0 420px;
+    transition: 0.5s;
+}
+
+.content {
+   margin-top: 10%;
+}
+
+.content h1 {
+    font-family: Brasika;
+    font-size: 70px;
+    color: #222;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content p {
+    margin: 10px 0 30px;
+    color: #333; 
+    text-align: center;
+}
+
+.content .btn {
+    padding: 15px 70px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    border-top-right-radius: 30px;
+}
+
+.login-btn:hover {
+    border-top-right-radius: 30px;
+    
+}
